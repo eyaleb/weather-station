@@ -18,6 +18,7 @@ UsedLibrary="/home/eyal/eagle-7.6.0/lbr/74xx-little-de.lbr"
 UsedLibrary="/home/eyal/eagle-7.6.0/lbr/74xx-little-us.lbr"
 UsedLibrary="/home/eyal/eagle-7.6.0/lbr/74xx-us.lbr"
 UsedLibrary="/home/eyal/eagle-7.6.0/lbr/751xx.lbr"
+UsedLibrary="/home/eyal/eagle-7.6.0/lbr/ESP12E.lbr"
 UsedLibrary="/home/eyal/eagle-7.6.0/lbr/IQD-Frequency-Products.lbr"
 UsedLibrary="/home/eyal/eagle-7.6.0/lbr/advanced-test-technologies.lbr"
 UsedLibrary="/home/eyal/eagle-7.6.0/lbr/agilent-technologies.lbr"
@@ -347,14 +348,14 @@ UsedLibrary="/home/eyal/eagle-7.6.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/home/eyal/eagle-7.6.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/home/eyal/eagle-7.6.0/lbr/zetex.lbr"
 UsedLibrary="/home/eyal/eagle-7.6.0/lbr/zilog.lbr"
-UsedLibrary="/home/eyal/eagle-7.6.0/lbr/ESP12E.lbr"
+UsedLibrary="/home/eyal/eagle/common/steves.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="431 125 1497 1024"
+Loc="293 0 1359 765"
 State=2
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="1360 768"
 Window="Win_1"
