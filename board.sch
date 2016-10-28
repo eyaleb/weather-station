@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -3674,7 +3674,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pad name="P$1" x="0" y="5.961" drill="0.7" diameter="1.778"/>
 <pad name="P$3" x="4.4944" y="5.969" drill="0.7" diameter="1.778"/>
 <pad name="P$4" x="4.4958" y="0" drill="0.7" diameter="1.778"/>
-<text x="-1.143" y="-0.0404" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<text x="-1.143" y="-0.0404" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="6.7046" y="-0.3114" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="SWITCH-SPST-TACTILE-SMD">
@@ -4051,6 +4051,65 @@ DIN A4, landscape with extra doc field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="my_lib">
+<packages>
+<package name="OLED_SMALL_I2C">
+<description>This is the screen from http://www.ebay.com.au/itm/351667180548</description>
+<pad name="GND" x="0" y="0" drill="0.9" shape="square"/>
+<pad name="VCC" x="2.54" y="0" drill="0.9"/>
+<pad name="SCL" x="5.08" y="0" drill="0.9"/>
+<pad name="SDA" x="7.62" y="0" drill="0.9"/>
+<wire x1="-10.16" y1="1.905" x2="17.78" y2="1.905" width="0.127" layer="21"/>
+<wire x1="17.78" y1="1.905" x2="17.78" y2="-26.035" width="0.127" layer="21"/>
+<wire x1="17.78" y1="-26.035" x2="-10.16" y2="-26.035" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-26.035" x2="-10.16" y2="1.905" width="0.127" layer="21"/>
+<text x="1.27" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-7.874" y="-0.254" radius="0.9652" width="0.127" layer="21"/>
+<circle x="-7.874" y="-23.9522" radius="0.9652" width="0.127" layer="21"/>
+<circle x="15.494" y="-23.9522" radius="0.9652" width="0.127" layer="21"/>
+<circle x="15.494" y="-0.254" radius="0.9652" width="0.127" layer="21"/>
+<wire x1="-9.652" y1="-2.54" x2="17.272" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-9.652" y1="-21.844" x2="17.272" y2="-21.844" width="0.127" layer="21"/>
+<wire x1="-9.652" y1="-2.54" x2="-9.652" y2="-21.844" width="0.127" layer="21"/>
+<wire x1="17.272" y1="-2.54" x2="17.272" y2="-21.844" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="OLED_I2C">
+<pin name="VCC" x="0" y="12.7" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<pin name="SDA" x="-15.24" y="2.54" length="middle"/>
+<pin name="SCL" x="-15.24" y="-2.54" length="middle"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OLED_64X128" prefix="LED" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="OLED_I2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OLED_SMALL_I2C">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4071,13 +4130,16 @@ DIN A4, landscape with extra doc field</description>
 <part name="R4" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="470"/>
-<part name="SW1" library="steves" deviceset="SWITCH-PUSHBUTTON" device="SMD" value="PROG"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device="" value="Test project"/>
 <part name="CON1" library="steves" deviceset="CON-1X2" device="WEID-PCB" value="Power"/>
 <part name="C1" library="steves" deviceset="CPOL" device="TANT02" value="100uF"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="SW2" library="steves" deviceset="SWITCH-PUSHBUTTON" device="SMD" value="RESET"/>
+<part name="SW2" library="steves" deviceset="SWITCH-PUSHBUTTON" device="JAYCAR" value="RESET"/>
+<part name="LCD1" library="my_lib" deviceset="OLED_64X128" device="" value="W128x64"/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" deviceset="VCC" device=""/>
+<part name="SW1" library="steves" deviceset="SWITCH-PUSHBUTTON" device="JAYCAR" value="PROG"/>
 </parts>
 <sheets>
 <sheet>
@@ -4094,7 +4156,6 @@ DIN A4, landscape with extra doc field</description>
 <instance part="R4" gate="G$1" x="91.44" y="86.36"/>
 <instance part="R5" gate="G$1" x="20.32" y="101.6"/>
 <instance part="R6" gate="G$1" x="83.82" y="71.12"/>
-<instance part="SW1" gate="G$1" x="99.06" y="71.12"/>
 <instance part="FRAME1" gate="G$1" x="-38.1" y="-5.08"/>
 <instance part="FRAME1" gate="G$2" x="124.46" y="-5.08"/>
 <instance part="CON1" gate="G$1" x="101.6" y="96.52"/>
@@ -4102,6 +4163,10 @@ DIN A4, landscape with extra doc field</description>
 <instance part="P+3" gate="VCC" x="111.76" y="106.68"/>
 <instance part="GND2" gate="1" x="111.76" y="83.82"/>
 <instance part="SW2" gate="G$1" x="33.02" y="55.88"/>
+<instance part="LCD1" gate="G$1" x="132.08" y="68.58"/>
+<instance part="GND3" gate="1" x="132.08" y="50.8"/>
+<instance part="P+4" gate="VCC" x="132.08" y="86.36"/>
+<instance part="SW1" gate="G$1" x="99.06" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -4148,6 +4213,11 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="121.92" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <junction x="111.76" y="101.6"/>
 </segment>
+<segment>
+<pinref part="LCD1" gate="G$1" pin="VCC"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+<wire x1="132.08" y1="81.28" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -4182,6 +4252,11 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="121.92" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <junction x="111.76" y="88.9"/>
 </segment>
+<segment>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="LCD1" gate="G$1" pin="GND"/>
+<wire x1="132.08" y1="53.34" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -4194,39 +4269,13 @@ DIN A4, landscape with extra doc field</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="SW1" gate="G$1" pin="P$2"/>
 <wire x1="88.9" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="P$1"/>
 <wire x1="91.44" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="73.66" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="73.66" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
 <junction x="91.44" y="71.12"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="88.9" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="MDL1" gate="G$1" pin="GPIO0"/>
-<wire x1="60.96" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="88.9" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
-<junction x="81.28" y="88.9"/>
-<pinref part="SW1" gate="G$1" pin="P$3"/>
-<wire x1="106.68" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="P$4"/>
-<wire x1="104.14" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="71.12" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="81.28" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-<junction x="106.68" y="73.66"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="MDL1" gate="G$1" pin="GPIO2"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="P$2"/>
+<pinref part="SW1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4247,6 +4296,44 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="25.4" y1="58.42" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <junction x="27.94" y="58.42"/>
 <junction x="25.4" y="91.44"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="LCD1" gate="G$1" pin="SDA"/>
+<wire x1="116.84" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<label x="111.76" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="88.9" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="MDL1" gate="G$1" pin="GPIO0"/>
+<wire x1="60.96" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="88.9" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
+<junction x="81.28" y="88.9"/>
+<wire x1="106.68" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="71.12" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="81.28" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<junction x="106.68" y="73.66"/>
+<label x="66.04" y="88.9" size="1.778" layer="95"/>
+<pinref part="SW1" gate="G$1" pin="P$4"/>
+<pinref part="SW1" gate="G$1" pin="P$3"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="LCD1" gate="G$1" pin="SCL"/>
+<wire x1="116.84" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
+<label x="111.76" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MDL1" gate="G$1" pin="GPIO2"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+<label x="66.04" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
